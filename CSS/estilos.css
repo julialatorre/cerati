@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.altura_viewport {
+    background: lightcoral;
+    height: 100vh;
+    padding: 20px 50px 100px 200px;
+    /*border-width: 10px;
+    border-color: red;
+    border-style: outset;*/
+}
+
+.altura_viewport div {
+    width: 100px;
+    height: 100px;
+    background: #F2CC85;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+section article img {
+    border-radius: 50%;
+    
+}
+
+.altura_viewport p {
+    margin: 50px 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    width: 20%;
+    background:rgba(253, 138, 44, 0.514);
+    text-align: center;
+    border: 1px solid black;
+}
+
+aside {
+    background: #262626;
+    overflow: auto;
+    padding: 20px;
+}
+
+aside p {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #333;
+    font-weight: bold;
+    float: right;
+    
+}
+
+section {
+    clear: both;
+}
+
+header {
+    background: #010A26
+  
+}
+
+header h1 {
+    color: #fff;
+    display: inline-block;
+}
+
+header nav {
+    background: rgba(235,222,40,1);
+    margin-top: 8px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+body {
+    font-family: 'asap', sans-serif;
+    font-size: 20px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background: rgba(235,222,40,1);
+    background: -moz-linear-gradient(top, rgba(235,222,40,1) 0%, rgba(254,157,1,1) 58%, rgba(254,157,1,1) 100%);
+    background: -webkit-gradient (left top, left bottom, color-stop(0%, rgba(235,222,40,1)), color-stop(58%, rgba(254,157,1,1)), color-stop(100%, rgba(254,157,1,1)));
+    background: -webkit-linear-gradient(top, rgba(235,222,40,1) 0%, rgba(254,157,1,1) 58%, rgba(254,157,1,1) 100%);
+    background: -o-linear-gradient(top, rgba(235,222,40,1) 0%, rgba(254,157,1,1) 58%, rgba(254,157,1,1) 100%);
+    background: -ms-linear-gradient(top, rgba(235,222,40,1) 0%, rgba(254,157,1,1) 58%, rgba(254,157,1,1) 100%);
+    background: linear-gradient(to bottom, rgba(235,222,40,1) 0%, rgba(254,157,1,1) 58%, rgba(254,157,1,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebde28', endColorstr='#fe9d01', GradientType=0 ); 
+    
+}
+
+section {
+    overflow: auto;
+}
+
+section article img {
+    float: left;
+    margin: 10px;
+}
+
+div {
+    background: white;
+}
+
+footer {
+    background: #262626;
+
+}
+
+.redes {
+    text-align: center;
+}
+
+.redes img {
+    width: 50px;
+}
